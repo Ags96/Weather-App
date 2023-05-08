@@ -1,11 +1,28 @@
-body{
+/* ------ RESETS --------*/
+* {
     box-sizing: border-box;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-body,
 html {
-    font-family: laton, serif;
+    font-family: 'laton', sans-serif;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+input {
+    outline: none;
+    font-family: inherit;
+}
+button {
+    font-family: inherit;
+}
+select {
+    font-family: inherit;
 }

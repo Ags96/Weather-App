@@ -1,8 +1,10 @@
-import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Loading = () => {
   return (
-    <h1>Loading...</h1>
+    <div className="spinner-border m-5" role="status">
+  <span className="sr-only"></span>
+</div>
   )
 }
 
